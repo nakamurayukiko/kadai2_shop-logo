@@ -8,7 +8,6 @@
   <link rel="stylesheet" href="./css/reset.css">
   <link rel="stylesheet" href="./css/style.css">
   <link rel="stylesheet" href="./css/responsive.css">
-  <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
   <title>SHOP LOGO</title>
 </head>
 <body>
@@ -16,20 +15,24 @@
     <h1>
         <a href="#">SHOP LOGO</a>
     </h1>
-    <div class="header-right pc">
-      <ul>
-        <li><a href="#">MENU</a></li>
-        <li><a href="#">MENU</a></li>
-        <li><a href="#">MENU</a></li>
-        <li><a href="#">MENU</a></li>
-        <li><a href="#">MENU</a></li>
-        <li><a href="#">MENU</a></li>
-      </ul>
-      <div class="btn">
-          <a href="#"><img src="./img/mailicon.png" alt="mailicon">MAIL</a>
-      </div>
+    <div class="nav-wrapper">
+      <nav class="header-nav">
+        <ul class="nav-list">
+          <li class="nav-item"><a href="#">MENU</a></li>
+          <li class="nav-item"><a href="#">MENU</a></li>
+          <li class="nav-item"><a href="#">MENU</a></li>
+          <li class="nav-item"><a href="#">MENU</a></li>
+          <li class="nav-item"><a href="#">MENU</a></li>
+          <li class="nav-item"><a href="#">MENU</a></li>
+        </ul>
+      </nav> 
     </div> 
-    <div class="header-right sp"><a href=""><i class="fas fa-bars"></i></a></div>  
+    <div class="burger-btn sp">
+      <span class="bar bar_top"></span>
+      <span class="bar bar_mid"></span>
+      <span class="bar bar_bottom"></span>
+    </div>
+    
   </header>
       
 
@@ -40,7 +43,7 @@
       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod<br> tempor incididunt ut labore et dolore magna aliqua. Quis ipsum sus-<br>pendisse ultrices gravida. Risus commodo viverra maecenas accumsan<br> lacus vel facilisis.
       </p>   
     </div>
-    <!-- first-wrapperここまで -->
+    
     <div class="second-wrapper">
 
       <h2>Greeting</h2>
@@ -50,7 +53,7 @@
 
     </div>
     
-    <!-- second-wrapperここまで -->
+   
     <div class="third-wrapper">
       <div class="first-row">
         <section>
@@ -87,7 +90,7 @@
         </section>
       </div>
     </div>
-    <!-- third-wrapperここまで -->
+  
     <div class="fourth-wrapper">
       <div class="fourth-left">
         <a href="#"><h1>SHOP LOGO</h1></a>
@@ -114,7 +117,7 @@
       <div class="fourth-right"></div>
       
     </div>
-    <!-- fourth-wrapperここまで -->
+   
   </main>
   <footer>
     
@@ -144,5 +147,7 @@
     <div class="copy-write">copyright 2019 coding training psd.</div>  
 
   </footer> 
+  <script src="script/jquery-3.6.0.min.js"></script>
+  <script src="script/script.js"></script>
 </body>
 </html>

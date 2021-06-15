@@ -50,23 +50,20 @@ header h1:hover {
   border-bottom: 1px solid #48bac2;
 }
 
-.header-right {
-  display: flex;
-  align-items: center;
-}
 
-.header-right ul{
+
+.nav-wrapper .header-nav .nav-list{
   width: 480px;
   display: flex;
   justify-content: space-between;
   margin-right: 31px;
 }
 
-.header-right li {
+.nav-wrapper .header-nav .nav-list .nav-item {
   font-size: 18px;
 }
 
-.header-right li:hover {
+.nav-wrapper .header-nav .nav-list .nav-item:hover {
   border-bottom: 1px solid #48bac2;
 }
 
@@ -97,7 +94,7 @@ header h1:hover {
 
 
 
-/* .first-wrapper */
+
 .first-wrapper {
   background-image: url(../img/firstimge.png);
   background-size: 100%;
@@ -126,7 +123,7 @@ header h1:hover {
   
 }
 
-/* second-wrapper */
+
 .second-wrapper {
   background-image: url(../img/second-image.png);
   background-size: 100%;
@@ -154,7 +151,6 @@ header h1:hover {
 
 
 
-/* third-wrapper */
 .third-wrapper {
   background-image: url(../img/thirt-img.png);
   background-size: 100%;
@@ -220,7 +216,7 @@ section p {
   
 }
 
-/* fourth-wrapper */
+
 
 .fourth-wrapper {
   height: 489px;
@@ -276,7 +272,6 @@ td {
 }
 
 
-/* footer */
 
 footer{
   background-image: url(../img/footerimg.png);
@@ -361,5 +356,9 @@ footer a:hover {
 
 .sp {
   display: none;
+}
+
+body.noscroll{
+  overflow: hidden;
 }
 
